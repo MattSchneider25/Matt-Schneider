@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Matthew Schneider | Film Composer | Berklee College of Music</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+    header { background: #1a1a1a; color: white; padding: 2em; text-align: center; }
+    h1 { margin: 0; font-size: 2.5em; }
+    h2 { color: #222; }
+    section { padding: 2em; max-width: 900px; margin: auto; }
+    .media-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1em; }
+    iframe, audio, img { width: 100%; border-radius: 8px; }
+    footer { background: #222; color: white; text-align: center; padding: 1em; }
+    .contact-form input, .contact-form textarea { width: 100%; margin-bottom: 1em; padding: 0.8em; border: 1px solid #ccc; border-radius: 5px; }
+    .contact-form button { background: #333; color: white; border: none; padding: 0.8em 2em; border-radius: 5px; cursor: pointer; }
+    .contact-form button:hover { background: #555; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Matthew Schneider — Film Composer</h1>
+    <p>Berklee College of Music | Original Scores for Film, TV, and Games</p>
+  </header>
+
+  <section>
+    <h2>🎧 Listen to My Work</h2>
+    <audio controls src="audio/score1.mp3"></audio>
+    <audio controls src="audio/score2.mp3"></audio>
+  </section>
+
+  <section>
+    <h2>🎬 Film Projects</h2>
+    <div class="media-grid">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID1" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID2" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section>
+    <h2>📸 Gallery</h2>
+    <div class="media-grid">
+      <img src="images/studio1.jpg" alt="Studio Work">
+      <img src="images/session.jpg" alt="Scoring Session">
+    </div>
+  </section>
+
+  <section>
+    <h2>📬 Contact Me</h2>
+    <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Matthew Schneider | Film Composer | Berklee College of Music</p>
+  </footer>
+
+</body>
+</html>
